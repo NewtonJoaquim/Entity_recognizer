@@ -1,0 +1,777 @@
+{ 
+"pessoa":
+  [
+    {
+      "value": "Dom Pedro I",
+      "synonyms": [
+        "Dom Pedro I",
+        "Dom Pedro",
+        "D Pedro",
+        "Dom pedro Primeiro",
+        "Pedro de Alcantara"
+      ]
+    },
+    {
+      "value": "Autoridades militares nacionais",
+      "synonyms": [
+        "Autoridades militares nacionais"
+      ]
+    },
+    {
+      "value": "Corte Lusitana",
+      "synonyms": [
+        "Corte Lusitana"
+      ]
+    },
+    {
+      "value": "Tupiniquim",
+      "synonyms": [
+        "Tupiniquim"
+      ]
+    },
+    {
+      "value": "Napoleão",
+      "synonyms": [
+        "Napoleão"
+      ]
+    },
+    {
+      "value": "Corte Portuguesa",
+      "synonyms": [
+        "Corte Portuguesa"
+      ]
+    },
+    {
+      "value": "Colônia Brasileira",
+      "synonyms": [
+        "Colônia Brasileira"
+      ]
+    },
+    {
+      "value": "Produtores Agrícolas",
+      "synonyms": [
+        "Produtores Agrícolas"
+      ]
+    },
+    {
+      "value": "Comerciantes Nacionais",
+      "synonyms": [
+        "Comerciantes Nacionais"
+      ]
+    },
+    {
+      "value": "Lorde Protetor",
+      "synonyms": [
+      "Lorde Protetor"
+      ]
+    },
+    {
+      "value": "Políticos Portugueses",
+      "synonyms": [
+      "Políticos Portugueses"
+      ]
+    },
+    {
+      "value": "Elites Lusitanas",
+      "synonyms": [
+      "Elites Lusitanas"
+      ]
+    },
+    {
+      "value": "Revolucionários lusitanos",
+      "synonyms": [
+      "Revolucionários lusitanos"
+      ]
+    },
+    {
+      "value": "Assembleia Nacional",
+      "synonyms": [
+      "Assembleia Nacional"
+      ]
+    },
+    {
+      "value": "Cortes",
+      "synonyms": [
+      "Cortes"
+      ]
+    },
+    {
+      "value": "Fazendeiros",
+      "synonyms": [
+      "Fazendeiros"
+      ]
+    },    
+    {
+      "value": "Comerciantes",
+      "synonyms": [
+      "Comerciantes"
+      ]
+    },  
+    {
+      "value": "Defensores da Independência",
+      "synonyms": [
+      "Defensores da Independência"
+      ]
+    },  
+    {
+      "value": "José Bonifácio",
+      "synonyms": [
+      "José Bonifácio"
+      ]
+    },  
+    {
+      "value": "Parlamento Português",
+      "synonyms": [
+      "Parlamento Português"
+      ]
+    },  
+    {
+      "value": "Imprensa",
+      "synonyms": [
+      "Imprensa"
+      ]
+    },  
+    {
+      "value": "José Clemente Pereira",
+      "synonyms": [
+      "José Clemente Pereira"
+      ]
+    },  
+    {
+      "value": "Joaquim Gonçalves Lêdo",
+      "synonyms": [
+      "Joaquim Gonçalves Lêdo"
+      ]
+    },  
+    {
+      "value": "Assembleia Constituinte",
+      "synonyms": [
+      "Assembleia Constituinte"
+      ]
+    },  
+    {
+      "value": "Partido Português",
+      "synonyms": [
+      "Partido Português"
+      ]
+    },  
+    {
+      "value": "Comerciante Lusitanos",
+      "synonyms": [
+      "Comerciante Lusitanos"
+      ]
+    },  
+    {
+      "value": "Banco do Brasil",
+      "synonyms": [
+      "Imprensa Brasileira"
+      ]
+    },  
+    {
+      "value": "Coroa Portuguesa",
+      "synonyms": [
+        "Coroa Portuguesa",
+        "nobreza de portugal",
+        "nobreza portuguesa",
+        "Coroa de portugal",
+        "familia real portuguesa",
+        "familia real de portugal",
+        "Família Real Portuguesa"
+      ]
+    },
+    {
+      "value": "Carlota Joaquina",
+      "synonyms": [
+        "Carlota Joaquina",
+        "C. Joaquina",  
+        "mae de dom pedro",
+        "mãe de dom pedro",
+        "mãe dom pedro",
+        "mae d pedro",
+        "mãe d pedro",
+        "mae d. pedro",
+        "mãe d. pedro"
+      ]
+    },
+    {
+      "value": "Dom João VI",
+      "synonyms": [
+        "Dom joão 6",
+        "Dom João VI",
+        "dom joao",
+        "d joao 6",
+        "d joao vi",
+        "d. joao 6",
+        "d. joao vi",
+        "pai de dom pedro",
+        "pai do dom pedro",
+        "pai dom pedro",
+        "pai d pedro",
+        "pai d. pedro"
+      ]
+    },
+    {
+      "value": "Deputados",
+      "synonyms": [
+        "Deputados",
+        "Deputado"
+      ]
+    }
+  ],
+  
+"evento":
+  [
+  {
+    "value": "Nascimento",
+    "synonyms": [
+      "Nascimento",
+      "nascido",
+      "nasceu"
+    ]
+  },
+  {
+    "value": "Fuga",
+    "synonyms": [
+      "Fuga",
+      "Fugiu",
+      "Fugiram"
+    ]
+  },
+  {
+    "value": "Reinvidicação",
+    "synonyms": [
+      "Reinvidicação",
+      "Reivindicou",
+      "Reivindicaram"
+    ]
+  },
+  {
+    "value": "Independência",
+    "synonyms": [
+      "Independência",
+      "Independente"
+    ]
+  },
+  {
+    "value": "descobrimento",
+    "synonyms": [
+      "descobrimento",
+      "descobriu"
+    ]
+  },
+  {
+    "value": "Pacto Colonial",
+    "synonyms": [
+      "Pacto Colonial"
+    ]
+  },
+  {
+    "value": "História Colonial",
+    "synonyms": [
+      "História Colonial"
+    ]
+  },
+  {
+    "value": "Reforma Urbanística",
+    "synonyms": [
+      "Reforma Urbanística"
+    ]
+  },
+  {
+    "value": "Revolução Constitucionalista",
+    "synonyms": [
+      "Revolução Constitucionalista"
+    ]
+  },
+  {
+    "value": "Rombo dos Cofres Brasileiros",
+    "synonyms": [
+      "Rombo dos Cofres Brasileiros"
+    ]
+  },
+  {
+    "value": "Baixa dos Impostos",
+    "synonyms": [
+      "Baixa dos Impostos",
+      "Baixa nos Impostos"
+    ]
+  },
+  {
+    "value": "Equiparação",
+    "synonyms": [
+      "Equiparação"
+    ]
+  },
+  {
+    "value": "Ascensão Política",
+    "synonyms": [
+      "Ascensão Política"
+    ]
+  },
+  {
+    "value": "Pressões das Cortes",
+    "synonyms": [
+      "Pressões das Cortes"
+    ]
+  },
+  {
+    "value": "Dia do Fico",
+    "synonyms": [
+      "Dia do Fico",
+      "digo que fico"
+    ]
+  },
+  {
+    "value": "Abaixo-Assinado",
+    "synonyms": [
+      "Abaixo-Assinado"
+    ]
+  },
+  {
+    "value": "Processo de Independência",
+    "synonyms": [
+      "Processo de Independência"
+    ]
+  },
+  {
+    "value": "Revolução Liberal",
+    "synonyms": [
+      "Revolução Liberal"
+    ]
+  },
+  {
+    "value": "Resolução",
+    "synonyms": [
+      "Resolução"
+    ]
+  },
+  {
+    "value": "Ameaça de Invasão Militar",
+    "synonyms": [
+      "Ameaça de Invasão Militar"
+    ]
+  },
+  {
+    "value": "Recolonização",
+    "synonyms": [
+      "Recolonização"
+    ]
+  },
+  {
+    "value": "Nomeação",
+    "synonyms": [
+      "Nomeação",
+      "nomear"
+
+    ]
+  },
+  {
+    "value": "Proclamação da Independência",
+    "synonyms": [
+      "Proclamação da Independência"
+    ]
+  },
+  {
+    "value": "Primeiro Reinado",
+    "synonyms": [
+      "Primeiro Reinado"
+    ]
+  },
+  {
+    "value": "Dívida",
+    "synonyms": [
+      "Dívida"
+    ]
+  },
+  {
+    "value": "Problemas Financeiros",
+    "synonyms": [
+      "Problemas Financeiros"
+    ]
+  },
+  {
+    "value": "Autonomia do Brasil'",
+    "synonyms": [
+      "Autonomia do Brasil'"
+    ]
+  },
+  {
+    "value": "Constituição",
+    "synonyms": [
+      "Constituição"
+    ]
+  },
+  {
+    "value": "Conflitos Políticos",
+    "synonyms": [
+      "Conflitos Políticos"
+    ]
+  },
+  {
+    "value": "Outorga da Constituição",
+    "synonyms": [
+      "Outorga da Constituição"
+    ]
+  },
+  {
+    "value": "Monarquia",
+    "synonyms": [
+      "Monarquia"
+    ]
+  },
+  {
+    "value": "Primeira Constituição Brasileira",
+    "synonyms": [
+      "Primeira Constituição Brasileira",
+      "1 Constituição Brasileira",
+      "1ª Constituição Brasileira"
+    ]
+  },
+  {
+    "value": "Impopularidade",
+    "synonyms": [
+      "Impopularidade"
+    ]
+  },
+  {
+    "value": "Confederação do Equador",
+    "synonyms": [
+      "Confederação do Equador"
+    ]
+  },
+  {
+    "value": "Esmagar",
+    "synonyms": [
+      "Esmagar",
+      "esmagou",
+      "esmagaram"
+    ]
+  },
+  {
+    "value": "Castigar",
+    "synonyms": [
+      "Castigar",
+      "castigou",
+      "casgtigaram"
+    ]
+  },
+  {
+    "value": "Insatisfação Popular",
+    "synonyms": [
+      "Insatisfação Popular"
+    ]
+  },
+  {
+    "value": "Guerra",
+    "synonyms": [
+      "Guerra"
+    ]
+  },
+  {
+    "value": "Período Regencial",
+    "synonyms": [
+      "Período Regencial"
+    ]
+  },
+  {
+    "value": "Guerra Cisplatina",
+    "synonyms": [
+      "Guerra Cisplatina"
+    ]
+  },
+  {
+    "value": "Crise Financeira",
+    "synonyms": [
+      "Crise Financeira"
+    ]
+  },
+  {
+    "value": "Morte",
+    "synonyms": [
+      "Morte",
+      "Morreu"
+    ]
+  },
+  {
+    "value": "Luta da Independência",
+    "synonyms": [
+      "Luta da Independência"
+    ]
+  },
+  {
+    "value": "Permanência de Dom Pedro I",
+    "synonyms": [
+      "Permanência de Dom Pedro I"
+    ]
+  },
+  {
+    "value": "Chegada",
+    "synonyms": [
+      "Chegada",
+      "Chegadou",
+      "Chegadaram"
+
+    ]
+  },
+  {
+    "value": "Nascimento",
+    "synonyms": [
+      "Nascimento",
+      "nascido",
+      "nasceu"
+    ]
+  },
+  {
+    "value": "Monarquia Constitucional",
+    "synonyms": [
+      "Monarquia Constitucional"
+    ]
+  },
+  {
+    "value": "Embarcação",
+    "synonyms": [
+      "Embarcação",
+      "Embarcou",
+      "Embarcacao",
+      "embarcacão"
+    ]
+  }
+],
+
+"local":
+  [
+  {
+    "value": "Brasil",
+    "synonyms": [
+      "brasil",
+      "brazil"
+    ]
+  },
+  {
+    "value": "Ipiranga",
+    "synonyms": [
+      "Rio Ipiranga"
+    ]
+  },
+  {
+    "value": "Portugal",
+    "synonyms": [
+      "Portugal"
+    ]
+  },
+  {
+    "value": "Europa",
+    "synonyms": [
+      "Europa"
+    ]
+  },
+  {
+    "value": "Reino Unido de Portugal",
+    "synonyms": [
+      "Reino Unido de Portugal"
+    ]
+  },
+  {
+    "value": "Rio de Janeiro",
+    "synonyms": [
+      "Rio de Janeiro"
+    ]
+  },
+  {
+    "value": "Algarves",
+    "synonyms": [
+      "Algarves"
+    ]
+  },
+  {
+    "value": "Universidade de Coimbra",
+    "synonyms": [
+      "Universidade de Coimbra"
+    ]
+  },
+  {
+    "value": "Santos",
+    "synonyms": [
+      "Santos"
+    ]
+  },
+  {
+    "value": "Inglaterra",
+    "synonyms": [
+      "Inglaterra"
+    ]
+  },
+  {
+    "value": "São Paulo",
+    "synonyms": [
+      "São Paulo"
+    ]
+  },
+  {
+    "value": "Estados Unidos",
+    "synonyms": [
+      "Estados Unidos",
+      " eua "
+    ]
+  },
+  {
+    "value": "Pernambuco",
+    "synonyms": [
+      "Inglaterra"
+    ]
+  },
+  {
+    "value": "Paraíba",
+    "synonyms": [
+      "Paraíba"
+    ]
+  },
+  {
+    "value": "Ceará",
+    "synonyms": [
+      "Ceará"
+    ]
+  },
+  {
+    "value": "Argentina",
+    "synonyms": [
+      "Argentina"
+    ]
+  },
+  {
+    "value": "Uruguai",
+    "synonyms": [
+      "Uruguai"
+    ]
+  },
+  {
+    "value": "Rio Grande do Norte",
+    "synonyms": [
+      "Rio Grande do Norte"
+    ]
+  },
+  {
+    "value": "Lisboa",
+    "synonyms": [
+      "Lisboa"
+    ]
+  }
+],
+
+"data":
+  [
+    {
+      "value": "12 de outubro de 1798",
+      "synonyms": [
+        "12 de outubro de 1798",
+        "doze de outubro de 1798",
+        "12/10/1798"
+
+      ]
+    },
+    {
+      "value": "1815",
+      "synonyms": [
+        "1815"
+      ]
+    },
+    {
+      "value": "1820",
+      "synonyms": [
+        "1820"
+      ]
+    },
+    {
+      "value": "1821",
+      "synonyms": [
+        "1821"
+      ]
+    },
+    {
+      "value": "9 de Janeiro de 1822",
+      "synonyms": [
+        "9 de Janeiro de 1822",
+        "09 de Janeiro de 1822",
+        "nove de Janeiro de 1822",
+        "9/1/1822",
+        "09/1/1822",
+        "9/01/1822",
+        "09/01/1822"
+
+      ]
+    },
+    {
+      "value": "1º de Dezembro",
+      "synonyms": [
+        "1º de Dezembro",
+        "1 de dezembro"
+      ]
+    },
+    {
+      "value": "1822",
+      "synonyms": [
+        "1822"
+      ]
+    },
+    {
+      "value": "1831",
+      "synonyms": [
+        "1831"
+      ]
+    },
+    {
+      "value": "1824",
+      "synonyms": [
+        "1824"
+      ]
+    },
+    {
+      "value": "1825",
+      "synonyms": [
+        "1825"
+      ]
+    },
+    {
+      "value": "1828",
+      "synonyms": [
+        "1825"
+      ]
+    },
+    {
+      "value": "7 de Abril de 1831",
+      "synonyms": [
+        "07 de Abril de 1831",
+        "7 de Abril de 1831",
+        "7/4/1831",
+        "07/4/1831",
+        "7/04/1831",
+        "07/04/1831"
+      ]
+    },
+    {
+      "value": "1834",
+      "synonyms": [
+        "1834"
+      ]
+    },
+    {
+      "value": "1808",
+      "synonyms": [
+        "1808",
+        "mil oitocentos e oito"
+
+      ]
+    },
+    {
+      "value": "7 de setembro de 1822",
+      "synonyms": [
+        "7 de setembro de 1822",
+        "sete de setembro de 1822",
+        "7/09/1822",
+        "07/09/1822",
+        "7/9/1822"
+
+      ]
+    }
+]
+}
