@@ -6,7 +6,7 @@ module.exports = function(app){
         res.send('chegou get 1');
     });
 
-    app.post('/entity_recon_script', function(req, res){
+    app.post('/', function(req, res){
         //res.send('chegou post 1');
         console.log(req.body['content']);
 
@@ -32,7 +32,8 @@ module.exports = function(app){
             for (i=0;i<body.data.length;i++){
                 entities.push(body.data[i]['answer']);
             }
-            res.send(entities);
+            //res.send([req.body['content'],entities]);
+            res.render('../views/pages/answer', {text: req.body['content'], ent: entities});
         });
     });
 }
