@@ -1,13 +1,29 @@
 <html>
 <head>
-<link rel='stylesheet' type='text/css' href='../css/entity.css'>
+    <link rel='stylesheet' type='text/css' href='../css/style.css'>
 
 </head>
 
 <body>
-    <p>
-       <%=text[0]%>
-    </p>
+    <div class="entities">
+        <%var cursor=0;%>
+        <%var ent_start=0;%>
+        <%var ent_end=0;%>
+        <%for(var i = 0; i<ent.length;i++) {%>
+            <%ent_start = ent[i][1];%>
+            <%ent_end = ent[i][2];%>
+            <%for (var j=cursor;j<ent_start;j++) {%>
+                <%=text[j]%>
+                <%}%>
+            <!-- <%=ent[i][0]%> -->
+            <mark data-entity="org"><%=ent[i][0]%></mark>
+            <%cursor = ent_end+1;%>
+            <%}%>
+        <%for (var i=cursor;i<text.length;i++){%>
+            <%=text[i]%>
+            <%}%>
+        <!--<%=text[0]%>-->
+    </div>
 
 </body>
 
