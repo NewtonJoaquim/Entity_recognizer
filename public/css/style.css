@@ -177,6 +177,15 @@
     background: rgb(153, 153, 153); 
 }
 
+[data-entity][data-entity="misc"] {
+    background: rgba(132, 40, 155, 0.2);
+    border-color: rgb(187, 38, 187); 
+}
+
+[data-entity][data-entity="misc"]::after {
+    background: rgb(164, 30, 182); 
+}
+
 body {
    padding: 25px 50px;
    font: 18px Helvetica, Arial, sans-serif;

@@ -18,6 +18,7 @@ app.get('/', function(req, res) {
 });
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static(__dirname + '/public'));
 
 consign()
     .include('/routes')

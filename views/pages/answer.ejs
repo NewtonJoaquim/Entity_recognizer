@@ -1,30 +1,73 @@
 <html>
 <head>
-    <link rel='stylesheet' type='text/css' href='../css/style.css'>
-
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <script type="text/javascript" src="admin.js"></script> 
+    <script type="text/javascript" src="post_treatment.js"></script> 
 </head>
 
 <body>
-    <div class="entities">
+    <div oncontextmenu="test()" class="entities" id="ent_text">
         <%var cursor=0;%>
         <%var ent_start=0;%>
         <%var ent_end=0;%>
+        <%var str_text="";%>
         <%for(var i = 0; i<ent.length;i++) {%>
             <%ent_start = ent[i][1];%>
             <%ent_end = ent[i][2];%>
             <%for (var j=cursor;j<ent_start;j++) {%>
-                <%=text[j]%>
-                <%}%>
-            <!-- <%=ent[i][0]%> -->
-            <mark data-entity="org"><%=ent[i][0]%></mark>
-            <%cursor = ent_end+1;%>
+                <%str_text+=text[j]%>
+            <%}%>
+            <%=str_text%>
+            <%var str_text="";%>
+            <%if (ent[i][3]=="ORG"){%>
+                <mark data-entity="org" onclick="toggleMenu(e)"><%=ent[i][0]%></mark>
+            <%}%>
+            <%if (ent[i][3] == "PER"){%>
+                <mark data-entity="person" onclick="toggleMenu(e)" id="personTest"><%=ent[i][0]%></mark>
+            <%}%>
+            <%if (ent[i][3] == "LOC"){%>
+                <mark data-entity="loc"><%=ent[i][0]%></mark>
+            <%}%>
+            <%if (ent[i][3] == "MISC"){%>
+                <mark data-entity="misc"><%=ent[i][0]%></mark>
+            <%}%>
+            <%cursor = ent_end;%>
             <%}%>
         <%for (var i=cursor;i<text.length;i++){%>
-            <%=text[i]%>
-            <%}%>
-        <!--<%=text[0]%>-->
+            <%str_text+=text[i]%>
+        <%}%>
+        <%=str_text%>
     </div>
 
+    <form action="/send" method='post'>
+        <input type="submit">
+    </form>
 </body>
+<script>
+        function getSelectionText() {
+            var text = "";
+            if (window.getSelection) {
+                text = window.getSelection().toString();
+            } else if (document.selection && document.selection.type != "Control") {
+                text = document.selection.createRange().text;
+            }
+            return text;
+        }
+        
+        function getPosIniSelectionText() {
+            var text = 0;
+            if (window.getSelection) {
+                text = window.getSelection().getRangeAt(0).startOffset;
+            } else if (document.selection && document.selection.type != "Control") {
+                text = 0;
+            }
+            return text;
+        }
+        
+        document.onmouseup = document.onkeyup = document.onselectionchange = function() {
+          document.getElementById("sel").value = getSelectionText();
+          document.getElementById("posini").value = getPosIniSelectionText();
+        };
+</script>
 
 </html>

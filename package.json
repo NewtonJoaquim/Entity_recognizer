@@ -8,5 +8,22 @@
     "start": "node server.js"
   },
   "author": "Newton Joaquim",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "jsonify": "^0.0.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewtonJoaquim/Entity_recognizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NewtonJoaquim/Entity_recognizer/issues"
+  },
+  "homepage": "https://github.com/NewtonJoaquim/Entity_recognizer#readme"
 }
